@@ -28,9 +28,7 @@ while i < len(ranges)-1:
 
     if i +1 < len(ranges) and ranges[i][1] >= ranges[i+1][0] and ranges[i][1] <= ranges[i+1][1]:
         ranges[i][1] = ranges[i+1][0] - 1
-
     i += 1 
-
 
 def count():
     counter = 0
